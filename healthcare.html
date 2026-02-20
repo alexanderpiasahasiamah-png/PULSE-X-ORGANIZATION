@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PulseX Healthcare</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/chat.js"></script>
+</head>
+<body>
+
+<header>
+  <strong>PulseX Healthcare</strong>
+  <nav><a href="index.html">Home</a></nav>
+</header>
+
+<section>
+<h2>Healthcare Platform</h2>
+
+<div class="cards">
+  <div class="card">
+    <h3>Telegram Bot</h3>
+    <a href="https://t.me/YOUR_BOT" target="_blank">
+      <button>Open Telegram</button>
+    </a>
+  </div>
+
+  <div class="card">
+    <h3>WhatsApp</h3>
+    <a href="https://wa.me/0537889150" target="_blank">
+      <button>Open WhatsApp</button>
+    </a>
+  </div>
+
+  <div class="card">
+    <h3>Website AI Chat</h3>
+    <button onclick="openChat()">Start Chat</button>
+  </div>
+</div>
+</section>
+
+<div id="chatBox" style="display:none; padding:20px;">
+  <input id="msg" placeholder="Describe symptoms">
+  <button onclick="sendMsg()">Send</button>
+</div>
+
+<footer>© PulseX Healthcare</footer>
+</body>
+</html>
